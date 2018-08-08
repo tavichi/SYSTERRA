@@ -359,7 +359,7 @@
 
         $("#asignanuevadir").click(function(){
         	
-        	if( ($("#txtmotivocambiodir").val()=='') || ($("#nocasa2modal").val()=='')  || ($("#nocasa1modal").val()=='') || ($("#literalmodal").val()=='') || ($("#cmbtdireccionmodal").val()==0) || ($("#calleavenidamodal").val()=='') )
+        	if( ($("#txtmotivocambiodir").val()=='') || ($("#nocasa2modal").val()=='')  || ($("#nocasa1modal").val()=='') || ($("#cmbtdireccionmodal").val()==0) || ($("#calleavenidamodal").val()=='') )
         	 {	
         	  swal('Terra System','Debe Completar Los Datos para Actualizar','warning');
         	  return false;
@@ -577,7 +577,7 @@ function actualizacod(){
 	$(".actcod").click(function(){
 		idcasa=this.id;
 		$("#casaactualizacod").val(idcasa);
-		$("#modalactualizadireccion").modal('show');
+		$("#modalactualiza").modal('show');
 	});
 }
 function Reintentar(){
